@@ -50,7 +50,7 @@ switch (args[0].toLowerCase()) {
     break;
 
     case "say":
-        if(message.author.id == "634872299069374488"){
+        if(message.author.id == "634872299069374488" || message.author.id == "681621579440193605"){
             message.delete();
             const emb2 = new Discord.MessageEmbed()
                 .setColor("#079898")
