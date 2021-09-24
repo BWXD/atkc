@@ -1,1 +1,1 @@
-worker: node athletic.js
+worker: node index.js
