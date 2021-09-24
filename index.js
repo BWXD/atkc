@@ -2,19 +2,19 @@
 const Discord = require("discord.js");
 var client = new Discord.Client();
 
-client.on("ready", function() {
+//client.on("ready", function() {
         /*var dd = new Date;
         var h = dd.getUTCHours();
         var m = dd.getUTCMinutes();
         var hh = ""; var mm = "";
         if(h < 10){hh = "0"} else if(h > 9){hh = ""}
         if(m < 10){mm = "0"} else if(m > 9){mm = ""}*/
-        console.log("Bot is up.")
+        //console.log("Bot is up.")
         /*client.channels.cache.get("890021970765303898").send(new Discord.MessageEmbed()
         .setColor("#F2F2F2")
         .setTitle("Bot was deployed at __" + hh + h + ":" + mm + m + " GMT__."))*/
-        client.user.setStatus("idle")
-});
+        //client.user.setStatus("idle")
+//});
 
 
 client.on("message", async function(message) {
